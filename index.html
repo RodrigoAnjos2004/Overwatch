@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+  <meta charset="UTF-8">
+  <title>Overwatch Main Menu</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="sortcut icon" href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/46b63d3c-ae67-464c-9a37-670829b2a157/d9qh18c-fc890453-8814-4c40-b768-897e17aa97fe.png/v1/fill/w_256,h_256,strp/overwatch___icon_by_blagoicons_d9qh18c-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjU2IiwicGF0aCI6IlwvZlwvNDZiNjNkM2MtYWU2Ny00NjRjLTlhMzctNjcwODI5YjJhMTU3XC9kOXFoMThjLWZjODkwNDUzLTg4MTQtNGM0MC1iNzY4LTg5N2UxN2FhOTdmZS5wbmciLCJ3aWR0aCI6Ijw9MjU2In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.1WNl0-5P6ZOA4ti30YdQa5aHzQj3g-WGMAXJn1rd3OY" type="image/png" />;
+  
+
+</head>
+<body>
+<video playsinline autoplay muted loop id="bgvid">
+    <source src="https://cdn.discordapp.com/attachments/303406782104207362/315832738223751168/tracer.mp4" type="video/mp4">
+</video>
+
+<div id="main">
+  <div id="left">
+    <div id="logo">
+      <img src="https://us.battle.net/forums/static/images/game-logos/game-logo-overwatch.png" alt="" />
+      <div id="version">V 1.0 RSA</div>
+    </div>
+    <div id="menus">
+      <canvas id="menu-highlight" width="800" height="600"></canvas>
+      <div class="italic highlight" onmouseover="highlight(this, event)">
+        Destaques
+      </div>
+      <div class="italic" onmouseover="highlight(this, event)">
+        Jogar
+      </div>
+      <div class="italic" onmouseover="highlight(this, event)">
+        Treinamento
+      </div>
+      <div class="italic" onmouseover="highlight(this, event)">
+        Caixa de itens
+      </div>
+      <div class="italic" onmouseover="highlight(this, event)">
+        <a href="galeria.html">Galeria de herois</a> 
+       </div>
+      <div class="normal">
+        SOCIAL
+      </div>
+      <div class="normal">
+        PERFIL DE CARREIRA
+      </div>
+      <div class="normal">
+        OPÇÕES
+      </div>
+      <div class="normal">
+        EXIT GAME
+      </div>
+    </div>
+    </div>
+  </div>
+  <div id="player">
+    <div id="social">
+      <img src="https://cdn.discordapp.com/attachments/303406782104207362/315772662989193216/social.png" alt="" />
+    </div>
+    <div id="info">
+      <img src="https://i.pinimg.com/originals/ae/5a/a4/ae5aa46c39bde4dd2de0efdc8a8af3f2.jpg" alt="" />
+      <div id="name">RODRIGO</div>
+      <div id="rank">17</div>
+    </div>
+  </div>
+  <div id="hero">
+    <div id="hero-name">TRACER</div>
+    <div id="hero-unlocks"><span>1</span>/384 UNLOCKS</div>
+  </div>
+</div>
+</body>
+</html>
